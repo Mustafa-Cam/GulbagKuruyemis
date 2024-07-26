@@ -1,6 +1,6 @@
 {
     "version":2,
-    "builds":[{"src":"./app.js","use":"@vercely/node"}],
+    "builds":[{"src":"./index.js","use":"@vercely/node"}],
     "routes":[{"src":"/(.*)","dest":"/"}]
 
 }
