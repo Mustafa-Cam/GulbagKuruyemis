@@ -94,7 +94,8 @@ Kırmızı Mercimeğe zam yapalım.
 ![image](https://github.com/user-attachments/assets/c529ce39-4eed-417a-ad55-c3e09f7c62f1)
 ![image](https://github.com/user-attachments/assets/c2c3cf09-86f4-485b-b777-11cc665f33d3)
 ![image](https://github.com/user-attachments/assets/e804bed7-8f91-4956-8c1f-620f3bc870e7)
-Burda admin de var görüldüğü gibi admin ilk olarak user kaydediliyor(o sebeple şuan user tablosundan silmediğimiz içiin gözüküyor.) Sonrasında veritabanına erişimi olan kişi burda bu user'ın rolünü admin yapıyor. sonrasında bunu admin tablosuna taşıyor. Admin belirleme database de yapılıyor yani. 
+
+Burda görüldüğü gibi admin de var  admin ilk olarak herkes gibi user olarak kaydediliyor (o sebeple şuan user tablosundan silmediğimiz için gözüküyor.) Sonrasında veritabanına erişimi olan kişi burda bu user'ın rolünü admin yapıyor. sonrasında bunu admin tablosuna taşıyor. Admin belirleme database de yapılıyor yani. 
 
 
 # Not:  !! Silme işlemini yapmıyoruz aktif pasif yapıyoruz. 
