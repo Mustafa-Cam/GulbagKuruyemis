@@ -17,7 +17,7 @@ DB_DBNAME=
 ## Ardından terminale --- npm install --- yazarak  gerekli paketleri yükleyiniz.
 
 ## Ardından aşşağdaki gibi projenin dizinine gelip nodemon app.js yazınız.
-![Ekran görüntüsü 2024-07-26 150440](https://github.com/user-attachments/assets/9a35c555-bfa4-4113-850f-f69cbe076223)
+![Ekran görüntüsü 2024-07-26 150440](https://github.com/user-attachments/assets/2f51e49c-dcb9-4a9f-9c6e-4387ee05f0ed)
 
 ## http://localhost:3000/  adresine gelelim.
 ![Ekran Görüntüsü (70)](https://github.com/user-attachments/assets/889859cd-6657-49d6-b762-afd0b1643f66)
