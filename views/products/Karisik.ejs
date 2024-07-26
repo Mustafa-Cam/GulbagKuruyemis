@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuruyemişci Siteniz - Ürün Detayı</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-************************************************************" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/products-detail.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  
+</head>
+
+<body>
+  <%- include('../includes/nav') %>
+
+  <div class="container-fluid py-4" style="margin-left: 0; padding-left: 0;">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="image-container">
+          <img class="img-fluid" src="/images/karışık.jpg" style="max-width: 100%; height: 700px;" alt="Antep Fıstığı">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="display-4">Karışık</h1>
+            <p class="lead" id="pricee">145 TL/kg</p>
+            <p class="text-muted">Antep fıstığı, lezzetli bir atıştırmalık olarak bilinir. İnce kabuklu ve iri tanelidir. Hem sağlıklı hem de lezzetlidir.</p>
+            <form action="/ekle" method="post">
+              <div class="form-group">
+                <label for="gramAmount">Ürün adı</label>
+                <input type="text" class="form-control" name="name" value="Karışık" readonly>
+              </div>
+              <div class="form-group">
+                <label for="gramAmount">Gram Miktarını giriniz:</label>
+                <input type="number" id="gramAmount" name="amount" class="form-control" min="0" step="1" oninput="calculateValues('gram')">
+              </div>
+              <div class="form-group">
+                <label for="calculatedPrice">Toplam Fiyat:</label>
+                <input type="number" class="form-control" id="price" name="price" oninput="calculateValues('price')">
+              </div>
+              <div>
+                <div class="btnsatinal">
+                  <button type="submit" class="btn btn-success" id="custom-border">Sepete Ekle</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<script src="/js/main.js"></script>
+</html>
