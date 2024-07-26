@@ -4,9 +4,13 @@ Projede Express.js ve frontend kısmı için template engine olarak ejs kullanı
 ## ilk olarak .env dosyası oluşturup aşşağdaki bilgileri doldurmalısınız.
 
 DATABASE_HOST=localhost
+--
 SESSION_SECRET=
+--
 DATABASE_SIFRE=
+--
 DB_USERNAME=root
+--
 DB_DBNAME=
 
 
